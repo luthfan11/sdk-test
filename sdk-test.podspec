@@ -24,13 +24,15 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/luthfan11/sdk-test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'luthfan11' => 'luthfan@chaosmatic.net' }
+  s.author           = { 'luthfan11' => 'luthfan.a.haq@gmail.com' }
   s.source           = { :git => 'https://github.com/luthfan11/sdk-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'Source/**/*.swift'
+  
+  s.swift_version = '4.0'
   
   # s.resource_bundles = {
   #   'sdk-test' => ['sdk-test/Assets/*.png']
