@@ -1,0 +1,16 @@
+PODS:
+  - sdk-test (0.1.0)
+
+DEPENDENCIES:
+  - sdk-test (from `../`)
+
+EXTERNAL SOURCES:
+  sdk-test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  sdk-test: e3ebc71831f1c072ff9ba23d9b7a99bfc08f908e
+
+PODFILE CHECKSUM: 6c1d9a8ee3983cff72be22dfc94f794af35970e8
+
+COCOAPODS: 1.8.4
